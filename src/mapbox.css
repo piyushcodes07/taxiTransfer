@@ -1,0 +1,76 @@
+
+
+ 
+
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1e7bf4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+
+    width: 240px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .search{
+    background-color:red;
+  }
+
+  .react-mapbox-ac-menu {
+    width: auto;
+    position: absolute;
+    z-index: 9999;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ccc;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: -1.0rem;
+  }
+   
+  .react-mapbox-ac-input {
+    margin-bottom: 1.5rem;
+  }
+   
+  .react-mapbox-ac-suggestion {
+    font-size: 18px;
+    line-height: 160% !important;
+    cursor: pointer;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+   
+  .react-mapbox-ac-suggestion:hover {
+    background-color: rgb(191, 194, 196);
+  }

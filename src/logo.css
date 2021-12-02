@@ -1,0 +1,30 @@
+@media (max-width: 1024px){
+.hero-benefits .benefit__text span {
+    line-height: 1.5;
+}
+.hero-benefits .benefit__text span {
+    line-height: 1.57;
+    display: inline-block;
+}
+* {
+    box-sizing: border-box;
+}}
+
+@media (max-width: 1024px){
+.hero-benefits .benefit__text {
+    font-size: 12px;
+    line-height: 30px;
+}}
+@media (max-width: 1088px){
+.hero-benefits .benefit__text {
+    font-size: 14px;
+}
+.hero-benefits .benefit__text {
+    max-width: 300px;
+    color: #fff;
+    font-size: 14px;
+}}
+@media (max-width: 1024px){
+body {
+    font-size: 15px;
+}}
